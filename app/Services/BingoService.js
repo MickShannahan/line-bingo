@@ -16,8 +16,9 @@ class BingoService{
     let copy = [...ProxyState.masterSquares]
     let empty = []
     for (let i = 1; i < 26; i++) {
-      const sq = copy.splice(Math.floor(Math.random()*copy.length));
-      empty.push(sq)
+      const sq = copy.splice(Math.floor(Math.random()*copy.length), 1);
+      console.log(sq);
+      empty.push(sq[0])
     }
     empty[12] = new Square({completed: true})
     ProxyState.squares = empty

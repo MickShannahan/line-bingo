@@ -21,7 +21,7 @@ class AppState extends EventEmitter {
     new Square({body: 'Lightsaber Red Color'}),
     new Square({body: 'Lightsaber Blue Color'}),
     new Square({body: 'Lightsaber Green Color'}),
-    new Square({body: 'Lightsaber Purple/yellow Color'}),
+    new Square({body: 'Lightsaber Purple / yellow Color'}),
     new Square({body: 'Person cuts line'}),
     new Square({body: 'Person Watching Video Game stream'}),
     new Square({body: 'Person Watching Sports Game stream'}),
