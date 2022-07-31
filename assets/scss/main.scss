@@ -8,12 +8,26 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: $body-bg;
+  background: rgb(36, 130, 255);
+  background: linear-gradient(42deg, rgba(36, 130, 255, 1) 0%, rgba(255, 11, 246, 1) 100%);
+  color: $light;
 }
 
 main {
   flex-grow: 1;
 }
 
+.bingo-square {
+  padding: 1em;
+  width: 20%;
+  height: 18vh;
+  border: 1px solid white;
+  word-break: normal;
+  text-align: center;
+}
 
-
+.complete {
+  background: $white;
+  color: black;
+  font-weight: bold;
+}

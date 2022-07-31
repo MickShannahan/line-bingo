@@ -1,7 +1,6 @@
-import { ValuesController } from "./Controllers/ValuesController.js";
-
+import { BingoController } from "./Controllers/BingoController.js";
 class App {
-  valuesController = new ValuesController();
+    bingoController= new BingoController
 }
 
 window["app"] = new App();
