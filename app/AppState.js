@@ -40,7 +40,6 @@ class AppState extends EventEmitter {
     new Square({body: 'Person wearing black shirt and pants'}),
     new Square({body: 'Person Colored Hair'}),
     new Square({body: 'Person with Disney Character on shoulder'}),
-    new Square({body: 'British person'}),
     new Square({body: 'Person speaks Foreign language'}),
     new Square({body: 'group of 6 or larger'}),
     new Square({body: 'Mom Takes picture of dad + kids'}),
