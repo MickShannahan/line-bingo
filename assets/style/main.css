@@ -14094,9 +14094,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  color: #e9ecef;
   background: #2482ff;
   background: linear-gradient(42deg, #2482ff 0%, #ff0bf6 100%);
-  color: #e9ecef;
+  font-size: 14px;
 }
 
 main {
@@ -14105,6 +14106,8 @@ main {
 
 .bingo-square {
   padding: 1em;
+  display: flex;
+  align-items: center;
   width: 20%;
   height: 18vh;
   border: 1px solid white;
@@ -14112,10 +14115,22 @@ main {
   text-align: center;
 }
 
+.font-small {
+  font-size: 13.2px;
+}
+
+.p-small {
+  padding: 0.4em;
+}
+
 .complete {
-  background: #fff;
-  color: black;
+  background: #000;
   font-weight: bold;
+  color: #1d928c;
+}
+
+.offcanvas .row {
+  height: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

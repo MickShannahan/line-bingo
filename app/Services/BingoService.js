@@ -4,6 +4,18 @@ import { Pop } from "../Utils/Pop.js";
 
 
 class BingoService{
+  editScore(input) {
+    ProxyState.wins = input
+  }
+  resetBoard() {
+    ProxyState.squares = ProxyState.squares.map(sq => {
+      sq.complete = false
+      return sq
+    })
+  }
+  win() {
+    ProxyState.wins += 1
+  }
   toggleSquare(id, status) {
     let square = ProxyState.squares.find(s => s.id == id)
     if(square){

@@ -8,17 +8,21 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  color: $light;
   background: rgb(36, 130, 255);
   background: linear-gradient(42deg, rgba(36, 130, 255, 1) 0%, rgba(255, 11, 246, 1) 100%);
-  color: $light;
+  font-size: 14px;
 }
 
 main {
   flex-grow: 1;
+
 }
 
 .bingo-square {
   padding: 1em;
+  display: flex;
+  align-items: center;
   width: 20%;
   height: 18vh;
   border: 1px solid white;
@@ -26,8 +30,20 @@ main {
   text-align: center;
 }
 
+.font-small {
+  font-size: 13.2px;
+}
+
+.p-small {
+  padding: .4em;
+}
+
 .complete {
-  background: $white;
-  color: black;
+  background: $black;
   font-weight: bold;
+  color: $primary;
+}
+
+.offcanvas .row {
+  height: 100%;
 }
